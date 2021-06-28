@@ -1,0 +1,156 @@
+.Label {
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.Form {
+    background-color: #1f1f2c;
+    color: white;
+    padding: 4rem;
+    min-height: 100vh;
+}
+.FormContents {
+    margin: 3rem 0;
+}
+.SideContainer {
+    background-image: url(/src/images/White\ gradient.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 5rem;
+    margin: 0 !important;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.Side {
+    text-align: center;
+}
+.Side a {
+    color: #000;
+}
+
+
+
+.FormHeading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.FormHeading a {
+    color: #fff;
+}
+.FormHeading h1 {
+    font-weight: 900;
+}
+
+
+
+
+.PPContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    margin: 3rem 0;
+}
+.Profile {
+    display: flex;
+    align-items: center;
+}
+.PPic {
+    width: 7rem;
+    height: 7rem;
+}
+.PPContent {
+    color: white;
+    margin-left: 30px;
+}
+.UploadBtn {
+    border: 1px solid teal;
+    background-color: transparent;
+    color: teal;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.UploadBtn:hover {
+    cursor: pointer;
+}
+
+
+
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+}
+.ProgressImg {
+    width: 10rem;
+}
+
+
+
+
+
+.BtnContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.BtnContainer > * {    
+    margin: 0 1rem;
+}
+.BtnContainer > *:hover {
+    cursor: pointer;
+}
+.BtnContainer > *:focus {
+    outline: none;
+}
+.PrevBtn {
+    background-color: transparent;
+    border: 0;
+    color: teal;
+}
+.NextBtn {    
+    background-color: teal;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+
+
+
+
+.SideHeading {
+    margin-bottom: 15rem;
+    font-size: 4rem;
+}
+.SidePara a {
+    color: #333;
+    font-weight: 700;
+}
+
+
+
+.AddFieldBtn {
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px dashed #fff;
+    background-color: transparent;
+    color: #fff;
+    margin: 1rem 0;
+    border-radius: 9px;
+}
+.AddFieldBtn:hover {
+    cursor: pointer;
+}
